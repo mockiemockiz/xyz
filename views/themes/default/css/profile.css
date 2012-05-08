@@ -1,0 +1,425 @@
+body{
+background:#8fb23b url('../images/bg.gif');
+background-position:top;
+background-repeat:repeat-x;
+font-size:11px;
+color:#FFFFFF;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+a{
+color:#003399;
+font-weight:bolder;
+text-decoration:none;
+}
+
+a:hover{
+color:#333333;
+}
+
+#the_logo{
+width:250px;
+height:50px;
+background:#8fb23b url('../images/little_logo.gif');
+margin-left:10px;
+float:left;
+position:absolute;
+}
+
+#preloading{
+background:url('../../../js/loading.gif');
+width:80px;
+height:80px;
+background-position:center;
+background-repeat:no-repeat;
+margin:0 auto;
+}
+
+.success{
+width:80%;
+height:auto;
+font-weight:bolder;
+color:#000000;
+padding:5px;
+border:1px solid #009900;
+background:#99CC00;
+}
+
+.error{
+width:80%;
+display:block;
+height:auto;
+padding:5px;
+border:1px solid #CC3300;
+background:#CC3300;
+color:#FFFFFF;
+}
+
+#tengah2{
+margin:0 auto;
+width:99%;
+height:auto;
+margin-top:6px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+background:#c0e3fd url('../images/bgprofile.gif');
+padding-bottom:100px;
+}
+
+.clearer{
+clear:both;
+}
+
+.tombol{
+cursor:pointer;
+}
+
+#left{
+height:auto;
+width:22%;
+padding-bottom:100px;
+float:left;
+border-right:1px solid #6ca3cc;
+padding-right:5px;
+}
+
+#album_list{
+padding-top:10px;
+margin-left:10px;
+width:98%;
+height:auto;
+padding-bottom:100px;
+border-top:1px solid #003366;
+float:left;
+margin-top:20px;
+}
+
+.album_box{
+width:160px;
+height:200px;
+border:1px solid #999999;
+float:left;
+background:#666666;
+margin-right:5px;
+cursor:pointer;
+}
+
+#centre{
+height:auto;
+width:54%;
+padding-bottom:100px;
+float:left;
+border-bottom:0;
+border-top:0;
+border-left:0;
+}
+
+#right{
+height:auto;
+width:22%;
+padding-bottom:100px;
+float:left;
+border-left:1px solid #6ca3cc;
+}
+
+#right ul{
+list-style:none;
+margin:0;
+padding:0;
+margin-top:10px;
+height:auto;
+padding-bottom:20px;
+}
+#right ul li{
+width:97%;
+margin-bottom:3px;
+border-bottom-style:dashed;
+border-bottom:1px solid #333;
+padding:5px;
+border-bottom-style:dashed;
+}
+
+
+#photo{
+width:200px;
+height:200px;
+float:left;
+margin-left:20px;
+border:1px solid #999999;
+background:#000000 url('../images/unknown.gif');
+}
+
+.kata{
+font-size:11px;
+float:left;
+text-align:inherit;
+margin-left:10px;
+}
+
+button,.submit,.but{
+-moz-border-radius: 15px;
+border-radius: 15px;
+padding:5px 10px 5px 10px;
+font-weight:bolder;
+cursor:pointer;
+color:#000000;
+text-decoration:none;
+border:1px solid #006600;
+background:#000000 url('../images/bg_button.gif');
+}
+
+#menu_top{
+list-style:none;
+margin:0;
+padding:0;
+width:100%;
+height:25px;
+background:#333232 url('../images/bgtop.gif');
+-moz-border-radius: 15px;
+border-radius: 15px;
+padding-top:6px;
+}
+
+#menu_top li{
+float:left;
+margin-right:1px;
+}
+
+.link{
+-moz-border-radius-topright: 25px;
+border-top-right-radius: 25px;
+-moz-border-radius-bottomright: 25px;
+border-bottom-right-radius: 25px;
+padding-right:10px;
+padding-bottom:5px;
+margin-left:8px;
+font-weight:bolder;
+cursor:pointer;
+color:#000000;
+text-decoration:none;
+border:2px solid #000000;
+border-left:0;
+border-top:0;
+border-bottom:0;
+}
+
+#about_me{
+padding-left:10px;
+color:#333333;
+}
+
+.about_me_header{
+color:#333333;
+}
+
+.link:hover{
+color:#CCFF00;
+}
+
+#wall_box{
+width:95%;
+padding:7px;
+margin-left:4px;
+height:auto;
+background:#9dd5fe;
+border:1px solid #6ca3cc;
+margin-top:10px;
+-moz-border-radius: 7px;
+border-radius: 7px;
+}
+
+#wall_center{
+background-position:bottom right;
+background-repeat:no-repeat;
+}
+
+#smiley_box{
+width:100%;
+float:left;
+display:block;
+height:auto;
+}
+
+.menu_attach{
+margin-top:5px;
+padding:4px;
+border:1px solid #999999;
+background:#666666;
+float:left;
+margin-right:4px;
+}
+
+#top{
+width:99%;
+height:auto;
+float:left;
+padding-bottom:10px;
+}
+
+#pp{
+width:22%;
+height:auto;
+float:left;
+padding-left:10px;
+padding-top:10px;
+}
+
+#status_box{
+width:73%;
+padding:10px;
+float:left;
+color:#333;
+padding-bottom:50px;
+height:140px;
+margin-left:10px;
+}
+
+#menu_top2{
+float:left; width:99%; margin-top:10px;
+margin-left:10px;
+}
+.boxes_side{
+-moz-border-radius-topright: 25px;
+border-top-right-radius: 15px;
+-moz-border-radius-topleft: 15px;
+border-top-left-radius: 15px;
+margin-top:30px;
+width:92%;
+padding-left:4px;
+padding-right:4px;
+height:auto;
+margin-left:5px;
+padding-bottom:20px;
+border:1px solid #6ca3cc;
+background:#afdafa;
+color:#333333;
+}
+
+.boxes_side h4{
+color:#333333;
+padding-bottom:3px;
+margin-bottom:3px;
+}
+
+
+.boxes_side h3{
+padding:4px;
+margin:0;
+background:#333;
+-moz-border-radius: 7px;
+border-radius: 7px;
+color:#000000;
+background:#000000 url('../images/bgtop.gif');
+}
+
+button:hover,a.but:hover{
+color:#FFFFFF;
+}
+
+#logo{
+-moz-border-radius: 15px;
+border-radius: 15px;
+width:100%;
+height:50px;
+background:#333232 url('../images/bgtop.gif');
+float:left;
+}
+
+#menu{
+float:right;
+margin-top:20px;
+margin-right:20px;
+color:#999999;
+}
+
+#message{
+width:20px;
+height:20px;
+background: url('../icons/mail.png');
+background-position:center;
+background-repeat:no-repeat;
+margin-left:5px;
+float:left;
+border-left:1px solid #CCFF00;
+padding-left:8px;
+font-weight:bolder;
+color:#FF0000;
+text-align:right;
+}
+
+#notif{
+width:20px;
+height:20px;
+background:#333232 url('../icons/notif.png');
+background-position:center;
+background-repeat:no-repeat;
+margin-left:5px;
+float:left;
+border-left:1px solid #CCFF00;
+padding-left:8px;
+font-weight:bolder;
+color:#FF0000;
+text-align:right;
+}
+
+#friend{
+width:20px;
+height:20px;
+background:url('../icons/friend.png');
+background-position:center;
+background-repeat:no-repeat;
+margin-left:5px;
+float:left;
+border-left:1px solid #CCFF00;
+padding-left:8px;
+font-weight:bolder;
+color:#FF0000;
+text-align:right;
+}
+
+
+#footer{
+-moz-border-radius: 15px;
+border-radius: 15px;
+width:100%;
+height:80px;
+float:left;
+margin-top:110px;
+color:#FFFFFF;
+text-align:center;
+}
+
+#myRoundabout{
+list-style:none;
+width:90%;
+margin:0 auto;
+margin-top:110px;
+}
+
+#myRoundabout li{
+color:#FFF;
+background:#000000 url('../images/bg2.gif');
+background-position:top;
+background-repeat:repeat-x;
+-moz-border-radius: 15px;
+border-radius: 15px;
+font-size:11px;
+padding:5px;
+}
+
+#myRoundabout li h3{
+margin:10px;
+font-size:15px;
+color:#00CCFF;
+}
+
+.roundabout-holder { padding: 0; height: 5em; }
+
+.roundabout-moveable-item { 
+height: 200px; 
+width: 300px; 
+cursor: pointer;
+border: 1px solid #666666;
+}
+
+.roundabout-in-focus { cursor: auto; }

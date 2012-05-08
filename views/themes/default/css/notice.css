@@ -1,0 +1,37 @@
+.error2{
+width:60%;
+margin:0 auto;
+margin-top:70px;
+text-align:center;
+padding-top:10px;
+height:auto;
+padding-bottom:50px;
+color:#333333;
+border:1px solid #999999;
+background:none;
+}
+
+.notice{
+width:60%;
+margin:0 auto;
+margin-top:70px;
+text-align:center;
+padding-top:10px;
+height:auto;
+padding-bottom:50px;
+color:#FFFFFF;
+border:1px solid #999999;
+background:none;
+}
+
+.success{
+width:400px;
+margin:0 auto;
+color:#CCFF00;
+padding-top:30px;
+padding-bottom:30px;
+padding-left:100px;
+padding-right:100px;
+border:1px solid #666666;
+background:#222;
+}

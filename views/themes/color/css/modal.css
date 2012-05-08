@@ -1,0 +1,72 @@
+#dialog-sl{
+z-index:1200;
+margin:0 auto;
+margin-left:25%;
+background:#333;
+padding:20px;
+position:absolute;
+display:none;
+width:500px;
+height:200px;
+filter:alpha(opacity=50);
+-moz-opacity:0.5;
+-khtml-opacity: 0.5;
+opacity: 0.5;
+-moz-border-radius: 15px;
+border-radius: 15px;
+}
+
+#photo_content{
+display:none;
+margin:0 auto;
+top:30px;
+text-align:center;
+margin-left:27%;
+background:#222;
+position:absolute;
+width:500px;
+z-index:1201;
+padding-bottom:30px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+color:#FFFFFF;
+
+-moz-border-radius-bottomleft: 25px;
+border-bottom-left-radius: 25px;
+
+-moz-border-radius-bottomright: 25px;
+border-bottom-right-radius: 25px;
+}
+
+#dialog_content{
+display:none;
+margin:0 auto;
+top:30px;
+margin-left:27%;
+background:#222;
+position:absolute;
+width:500px;
+z-index:1201;
+padding-bottom:30px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+color:#FFFFFF;
+}
+
+#close_button{
+float:right; font-size:15px; font-weight:bolder;
+margin-right:5px;
+cursor:pointer;
+}
+
+#dialog_content h4,#photo_content h4{
+padding:4px;
+margin:0;
+background:#333;
+padding-left:3px;
+-moz-border-radius: 7px;
+border-radius: 7px;
+color:#000000;
+background:#000000 url('../images/bg_button.gif');
+}
+
